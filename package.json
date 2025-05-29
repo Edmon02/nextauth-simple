@@ -1,0 +1,21 @@
+{
+  "name": "nextauth-simple-monorepo",
+  "version": "0.1.0",
+  "author": "NextAuth-Simple Team",
+  "description": "Monorepo for NextAuth-Simple, a minimal authentication library for Next.js App Router",
+  "engines": {
+    "node": ">=18.0.0",
+    "bun": ">=1.0.0"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "bun run --cwd packages/nextauth-simple build",
+    "dev:example": "bun run --cwd packages/example-app dev",
+    "test": "bun run --cwd packages/nextauth-simple test"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ]
+}
