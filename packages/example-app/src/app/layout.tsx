@@ -1,4 +1,5 @@
 import { SessionProvider } from 'nextauth-simple';
+import './globals.css';
 
 export default function RootLayout({
   children,

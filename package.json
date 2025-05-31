@@ -17,5 +17,11 @@
   "type": "module",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "drizzle-kit": "^0.31.1"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.1"
+  }
 }

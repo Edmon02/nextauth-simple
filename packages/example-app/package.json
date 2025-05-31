@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "drizzle-orm": "^0.29.0",
     "next": "^14.0.0",
     "nextauth-simple": "workspace:*",
+    "postcss": "^8.5.4",
+    "postgres": "^3.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "drizzle-orm": "^0.29.0",
-    "postgres": "^3.4.0"
+    "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
