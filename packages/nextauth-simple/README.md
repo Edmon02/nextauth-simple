@@ -80,7 +80,7 @@ export default function LoginPage() {
 
 ## Documentation
 
-For more detailed documentation and examples, please visit our [GitHub repository](https://github.com/yourusername/nextauth-simple).
+For more detailed documentation and examples, please visit our [GitHub repository](https://github.com/Edmon02/nextauth-simple).
 
 ## License
 

@@ -81,7 +81,7 @@ async function getSessionByToken(
       .limit(1)
       .execute();
 
-    if (sessions.length === 0) {
+    if (!sessions || sessions.length === 0) {
       return null;
     }
 
@@ -106,7 +106,7 @@ async function getSessionByToken(
       .limit(1)
       .execute();
 
-    if (users.length === 0) {
+    if (!users || users.length === 0) {
       return null;
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "nextauth-simple",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Minimal, highly opinionated authentication library for Next.js App Router",
   "main": "dist/index.js",
   "module": "dist/index.js",
