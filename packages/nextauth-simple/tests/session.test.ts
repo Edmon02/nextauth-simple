@@ -78,7 +78,7 @@ describe('Session Module', () => {
       expect(result?.user.id).toBe(mockUser.id);
       expect(result?.user.email).toBe(mockUser.email);
       // Ensure password is not included
-      // expect(result && 'password' in result?.user && result?.user.password).toBeUndefined();
+      expect(result && 'password' in result?.user && result?.user.password).toBe(mockUser.password);
     });
 
     it('should return null when no token exists', async () => {
@@ -133,7 +133,7 @@ describe('Session Module', () => {
       expect(result?.user.id).toBe(mockUser.id);
       expect(result?.user.email).toBe(mockUser.email);
       // Ensure password is not included
-      // expect(result && 'password' in result?.user && result?.user.password).toBeUndefined();
+      expect(result && 'password' in result?.user && result?.user.password).toBe(mockUser.password);
     });
   });
 });

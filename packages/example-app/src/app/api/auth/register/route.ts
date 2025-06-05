@@ -4,9 +4,8 @@ import { config } from '@/lib/auth';
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
-    const { email, password } = body;
-    
+    const { email, password } = await request.json();
+
     // Validate input
     if (!email || !password) {
       return NextResponse.json(

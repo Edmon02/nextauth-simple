@@ -15,7 +15,13 @@
       "dom",
       "dom.iterable",
       "esnext"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
   },
   "include": [
     "src"
